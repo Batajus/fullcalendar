@@ -1,5 +1,5 @@
 import * as $ from 'jquery'
-import { EventSource, Promise, JsonFeedEventSource, warn, applyAll } from 'fullcalendar'
+import { EventSource, Promise, JsonFeedEventSource, warn, applyAll } from 'cgm_de_fullcalendar'
 
 
 export default class GcalEventSource extends EventSource {

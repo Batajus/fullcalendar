@@ -22,8 +22,8 @@ module.exports = function(config) {
       'node_modules/components-jqueryui/themes/cupertino/jquery-ui.css',
 
       // main lib files
-      'dist/fullcalendar.js',
-      'dist/fullcalendar.css',
+      'dist/cgm_de_fullcalendar.js',
+      'dist/cgm_de_fullcalendar.css',
       'dist/gcal.js',
       'dist/locale-all.js',
 

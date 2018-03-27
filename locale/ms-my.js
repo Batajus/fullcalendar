@@ -1,5 +1,5 @@
 import 'moment/locale/ms-my';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Malaysian initialisation for the jQuery UI date picker plugin. */

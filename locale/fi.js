@@ -1,5 +1,5 @@
 import 'moment/locale/fi';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Finnish initialisation for the jQuery UI date picker plugin. */

@@ -10,9 +10,9 @@ NOTE: js and typescript module names shouldn't have a .js extention,
 however, all other types of modules should.
 */
 const MODULES = {
-  'dist/fullcalendar': './src/main.ts',
-  'dist/fullcalendar.css': './src/main.scss',
-  'dist/fullcalendar.print.css': './src/common/print.scss',
+  'dist/cgm_de_fullcalendar': './src/main.ts',
+  'dist/cgm_de_fullcalendar.css': './src/main.scss',
+  'dist/cgm_de_fullcalendar.print.css': './src/common/print.scss',
   'dist/gcal': './plugins/gcal/main.ts',
   'tmp/automated-tests': './tests/automated/index'
 }
@@ -40,11 +40,11 @@ module.exports = {
     '../moment': 'moment',
 
     // plugins reference the root 'fullcalendar' namespace
-    fullcalendar: {
-      commonjs: 'fullcalendar',
-      commonjs2: 'fullcalendar',
-      amd: 'fullcalendar',
-      root: 'FullCalendar'
+    cgm_de_fullcalendar: {
+      commonjs: 'cgm_de_fullcalendar',
+      commonjs2: 'cgm_de_fullcalendar',
+      amd: 'cgm_de_fullcalendar',
+      root: 'CGM_DE_FullCalendar'
     }
   },
 
@@ -92,7 +92,7 @@ module.exports = {
   },
 
   output: {
-    library: 'FullCalendar', // gulp will strip this out for plugins
+    library: 'CGM_DE_FullCalendar', // gulp will strip this out for plugins
     libraryTarget: 'umd',
     filename: '[name].js',
     path: __dirname,

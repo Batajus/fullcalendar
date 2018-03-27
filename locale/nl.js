@@ -1,5 +1,5 @@
 import 'moment/locale/nl';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Dutch (UTF-8) initialisation for the jQuery UI date picker plugin. */

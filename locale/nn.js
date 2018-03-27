@@ -1,5 +1,5 @@
 import 'moment/locale/nn';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Norwegian Nynorsk initialisation for the jQuery UI date picker plugin. */

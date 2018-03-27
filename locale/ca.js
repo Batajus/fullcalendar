@@ -1,5 +1,5 @@
 import 'moment/locale/ca';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Inicialització en català per a l'extensió 'UI date picker' per jQuery. */

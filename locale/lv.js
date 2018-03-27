@@ -1,5 +1,5 @@
 import 'moment/locale/lv';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Latvian (UTF-8) initialisation for the jQuery UI date picker plugin. */

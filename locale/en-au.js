@@ -1,5 +1,5 @@
 import 'moment/locale/en-au';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* English/Australia initialisation for the jQuery UI date picker plugin. */

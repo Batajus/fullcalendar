@@ -1,6 +1,6 @@
 {
-  "name": "fullcalendar",
-  "title": "FullCalendar",
+  "name": "cgm_de_fullcalendar",
+  "title": "CGM_DE_FullCalendar",
   "description": "Full-sized drag & drop event calendar",
   "keywords": [
     "calendar",
@@ -26,8 +26,8 @@
     "moment": "^2.9.0"
   },
   "main": [
-    "dist/fullcalendar.js",
-    "dist/fullcalendar.css"
+    "dist/cgm_de_fullcalendar.js",
+    "dist/cgm_de_fullcalendar.css"
   ],
   "ignore": [
     "*",

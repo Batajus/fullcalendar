@@ -11,23 +11,23 @@ Waits for fullcalendar.js to be created/modified before computing,
 to avoid competing with and slowing down main build watcher.
 */
 gulp.task('ts-types:watch', function() {
-  watch('dist/fullcalendar.js', exec)
+  watch('dist/cgm_de_fullcalendar.js', exec)
 })
 
 function exec() {
   gutil.log('Computing TypeScript definitions file...')
   return generateDts({
     project: '.', // where the tsconfig is
-    name: 'fullcalendar',
-    main: 'fullcalendar/src/main',
-    out: 'tmp/fullcalendar.d.ts'
+    name: 'cgm_de_fullcalendar',
+    main: 'cgm_de_fullcalendar/src/main',
+    out: 'tmp/cgm_de_fullcalendar.d.ts'
   }).then(function() {
-    let content = fs.readFileSync('tmp/fullcalendar.d.ts', { encoding: 'utf8' })
+    let content = fs.readFileSync('tmp/cgm_de_fullcalendar.d.ts', { encoding: 'utf8' })
     content = filterModuleDeclaration(content)
     if (!fs.existsSync('dist')) {
       fs.mkdirSync('dist')
     }
-    fs.writeFileSync('dist/fullcalendar.d.ts', content, { encoding: 'utf8' })
+    fs.writeFileSync('dist/cgm_de_fullcalendar.d.ts', content, { encoding: 'utf8' })
     gutil.log('Wrote TypeScript definitions file.')
   })
 }

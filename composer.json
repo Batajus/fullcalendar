@@ -1,5 +1,5 @@
 {
-  "name": "fullcalendar/fullcalendar",
+  "name": "cgm_de_fullcalendar/cgm_de_fullcalendar",
   "type": "component",
   "description": "Full-sized drag & drop event calendar",
   "keywords": [
@@ -26,16 +26,16 @@
   "extra": {
     "component": {
       "scripts": [
-        "dist/fullcalendar.js"
+        "dist/cgm_de_fullcalendar.js"
       ],
       "styles": [
-        "dist/fullcalendar.css"
+        "dist/cgm_de_fullcalendar.css"
       ],
       "files": [
-        "dist/fullcalendar.min.js",
-        "dist/fullcalendar.min.css",
-        "dist/fullcalendar.print.css",
-        "dist/fullcalendar.print.min.css",
+        "dist/cgm_de_fullcalendar.min.js",
+        "dist/cgm_de_fullcalendar.min.css",
+        "dist/cgm_de_fullcalendar.print.css",
+        "dist/cgm_de_fullcalendar.print.min.css",
         "dist/gcal.js",
         "dist/gcal.min.js",
         "dist/locale-all.js",

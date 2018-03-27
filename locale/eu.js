@@ -1,5 +1,5 @@
 import 'moment/locale/eu';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Karrikas-ek itzulia (karrikas@karrikas.com) */

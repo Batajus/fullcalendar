@@ -1,5 +1,5 @@
 import 'moment/locale/ar-dz';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Algerian Arabic Translation for jQuery UI date picker plugin.

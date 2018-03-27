@@ -1,6 +1,6 @@
 {
-  "name": "fullcalendar",
-  "title": "FullCalendar",
+  "name": "cgm_de_fullcalendar",
+  "title": "CGM_DE_FullCalendar",
   "description": "Full-sized drag & drop event calendar",
   "keywords": [
     "calendar",
@@ -22,12 +22,12 @@
   },
   "copyright": "2018 Adam Shaw",
   "dependencies": {
-    "jquery": "2 - 3",
-    "moment": "^2.9.0"
   },
-  "version": "0.0.0",
-  "releaseDate": "1970-01-01",
+  "version": "0.0.3",
+  "releaseDate": "2018-03-19",
   "devDependencies": {
+    "jquery": "2 - 3",
+    "moment": "^2.9.0",
     "@types/jquery": "2.0.47",
     "awesome-typescript-loader": "^3.3.0",
     "bootstrap": "^3.3.7",
@@ -78,8 +78,8 @@
     "webpack-stream": "^4.0.0",
     "yargs": "^4.8.1"
   },
-  "main": "dist/fullcalendar.js",
-  "types": "dist/fullcalendar.d.ts",
+  "main": "dist/cgm_de_fullcalendar.js",
+  "types": "dist/cgm_de_fullcalendar.d.ts",
   "files": [
     "dist/*.js",
     "dist/*.css",

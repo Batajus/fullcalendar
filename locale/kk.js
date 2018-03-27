@@ -1,5 +1,5 @@
 import 'moment/locale/kk';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Kazakh (UTF-8) initialisation for the jQuery UI date picker plugin. */

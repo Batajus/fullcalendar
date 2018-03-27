@@ -1,5 +1,5 @@
 import 'moment/locale/sl';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Slovenian initialisation for the jQuery UI date picker plugin. */

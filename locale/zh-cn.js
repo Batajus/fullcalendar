@@ -1,5 +1,5 @@
 import 'moment/locale/zh-cn';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Chinese initialisation for the jQuery UI date picker plugin. */

@@ -1,5 +1,5 @@
 import 'moment/locale/mk';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Macedonian i18n for the jQuery UI date picker plugin. */

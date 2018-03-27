@@ -1,5 +1,5 @@
 import 'moment/locale/fr';
-import * as FullCalendar from 'fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* French initialisation for the jQuery UI date picker plugin. */

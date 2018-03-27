@@ -56,7 +56,7 @@ function createStream(isDev, isWatch) {
 
       // for modules that plug into the core, webpack produces files that overwrite
       // the `FullCalendar` browser global each time. strip it out.
-      if (file.relative !== 'dist/fullcalendar.js') {
+      if (file.relative !== 'dist/cgm_de_fullcalendar.js') {
         content = content.replace(/(root|exports)\[['"]FullCalendar['"]\]\s*=\s*/g, '')
       }
 
