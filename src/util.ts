@@ -306,10 +306,10 @@ export function getEvX(ev) {
   // on mobile FF, pageX for touch events is present, but incorrect,
   // so, look at touch coordinates first.
   if (touches && touches.length) {
-    return touches[0].pageX
+    return touches[0].pageX / Number($('body').css('zoom'))
   }
 
-  return ev.pageX
+  return ev.pageX / Number($('body').css('zoom'))
 }
 
 
@@ -319,10 +319,10 @@ export function getEvY(ev) {
   // on mobile FF, pageX for touch events is present, but incorrect,
   // so, look at touch coordinates first.
   if (touches && touches.length) {
-    return touches[0].pageY
+    return touches[0].pageY / Number($('body').css('zoom'))
   }
 
-  return ev.pageY
+  return ev.pageY / Number($('body').css('zoom'))
 }
 
 

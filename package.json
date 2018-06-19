@@ -23,8 +23,8 @@
   "copyright": "2018 Adam Shaw",
   "dependencies": {
   },
-  "version": "0.0.3",
-  "releaseDate": "2018-03-19",
+  "version": "0.0.5",
+  "releaseDate": "2018-06-19",
   "devDependencies": {
     "jquery": "2 - 3",
     "moment": "^2.9.0",
