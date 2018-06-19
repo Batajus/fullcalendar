@@ -1,5 +1,5 @@
 {
-  "name": "cgm_de_fullcalendar",
+  "name": "@medical-cloud/cgm_de_fullcalendar",
   "title": "CGM_DE_FullCalendar",
   "description": "Full-sized drag & drop event calendar",
   "keywords": [
@@ -21,8 +21,7 @@
     "url": "http://arshaw.com/"
   },
   "copyright": "2018 Adam Shaw",
-  "dependencies": {
-  },
+  "dependencies": {},
   "version": "0.0.5",
   "releaseDate": "2018-06-19",
   "devDependencies": {
