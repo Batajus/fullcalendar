@@ -152,7 +152,7 @@ export { default as InteractiveDateComponent } from './component/InteractiveDate
 export { default as Calendar } from './Calendar'
 export { default as View } from './View'
 export { defineView, getViewConfig } from './ViewRegistry'
-export { default as DayTableMixin } from './component/DayTableMixin'
+export { default as DayTableMixin, DayTableInterface } from './component/DayTableMixin'
 export { default as BusinessHourRenderer } from './component/renderers/BusinessHourRenderer'
 export { default as EventRenderer } from './component/renderers/EventRenderer'
 export { default as FillRenderer } from './component/renderers/FillRenderer'
