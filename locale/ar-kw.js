@@ -1,5 +1,5 @@
 import 'moment/locale/ar-kw';
-import * as FullCalendar from 'cgm_de_fullcalendar';
+import * as FullCalendar from '@medical-cloud/cgm_de_fullcalendar';
 
 
 /* Arabic Translation for jQuery UI date picker plugin. */

@@ -40,7 +40,7 @@ module.exports = {
     '../moment': 'moment',
 
     // plugins reference the root 'fullcalendar' namespace
-    cgm_de_fullcalendar: {
+    '@medical-cloud/cgm_de_fullcalendar': {
       commonjs: 'cgm_de_fullcalendar',
       commonjs2: 'cgm_de_fullcalendar',
       amd: 'cgm_de_fullcalendar',

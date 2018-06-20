@@ -8,7 +8,7 @@
     "importHelpers": true,
     "baseUrl": ".",
     "paths": {
-      "cgm_de_fullcalendar": ["src/main"]
+      "@medical-cloud/cgm_de_fullcalendar": ["src/main"]
     }
   },
   "include": [
