@@ -7,9 +7,9 @@ export const version = '<%= version %>'
 export const internalApiVersion = 12
 
 export {
-  EventObjectInput,
   BusinessHoursInput,
   EventOptionsBase,
+  EventObjectInput,
   OptionsInput,
   OptionsInputBase,
   RangeInput,
@@ -17,7 +17,17 @@ export {
   ViewOptionsInput,
   ButtonIconsInput,
   ButtonTextCompoundInput,
-  CellInfo
+  CellInfo,
+  ConstraintInput,
+  CustomButtonInput,
+  DropInfo,
+  DurationInput,
+  EventSegment,
+  EventSourceExtendedInput,
+  EventSourceFunction,
+  EventSourceInput,
+  EventSourceSimpleInput,
+  MomentInput
 } from './types/input-types'
 
 export {
