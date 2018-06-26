@@ -1,5 +1,5 @@
 {
-  "name": "@medical-cloud/cgm_de_fullcalendar",
+  "name": "cgm_de_fullcalendar",
   "title": "CGM_DE_FullCalendar",
   "description": "Full-sized drag & drop event calendar",
   "keywords": [

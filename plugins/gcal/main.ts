@@ -1,4 +1,4 @@
-import * as exportHooks from '@medical-cloud/cgm_de_fullcalendar'
+import * as exportHooks from 'cgm_de_fullcalendar'
 import GcalEventSource from './GcalEventSource'
 
 exportHooks.EventSourceParser.registerClass(GcalEventSource);

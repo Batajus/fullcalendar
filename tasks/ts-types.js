@@ -18,8 +18,8 @@ function exec() {
   gutil.log('Computing TypeScript definitions file...')
   return generateDts({
     project: '.', // where the tsconfig is
-    name: '@medical-cloud/cgm_de_fullcalendar',
-    main: '@medical-cloud/cgm_de_fullcalendar/src/main',
+    name: 'cgm_de_fullcalendar',
+    main: 'cgm_de_fullcalendar/src/main',
     out: 'tmp/cgm_de_fullcalendar.d.ts'
   }).then(function() {
     let content = fs.readFileSync('tmp/cgm_de_fullcalendar.d.ts', { encoding: 'utf8' })

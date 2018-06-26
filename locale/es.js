@@ -1,5 +1,5 @@
 import 'moment/locale/es';
-import * as FullCalendar from '@medical-cloud/cgm_de_fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Inicialización en español para la extensión 'UI date picker' para jQuery. */

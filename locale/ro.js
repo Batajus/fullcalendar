@@ -1,5 +1,5 @@
 import 'moment/locale/ro';
-import * as FullCalendar from '@medical-cloud/cgm_de_fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Romanian initialisation for the jQuery UI date picker plugin.

@@ -1,5 +1,5 @@
 import 'moment/locale/en-au';
-import * as FullCalendar from '@medical-cloud/cgm_de_fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* English/Australia initialisation for the jQuery UI date picker plugin. */

@@ -1,5 +1,5 @@
 import 'moment/locale/ko';
-import * as FullCalendar from '@medical-cloud/cgm_de_fullcalendar';
+import * as FullCalendar from 'cgm_de_fullcalendar';
 
 
 /* Korean initialisation for the jQuery calendar extension. */
