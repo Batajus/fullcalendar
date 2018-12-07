@@ -104,13 +104,21 @@ export default class HitDragListener extends DragListener {
 
     hit = this.queryHit(getEvX(ev), getEvY(ev))
 
+    let x = getEvX(ev);
+    let y = getEvY(ev);
+
     if (!isHitsEqual(hit, this.hit)) { // a different hit than before?
+
       if (this.hit) {
         this.handleHitOut()
       }
-      if (hit) {
+      // CGM: Only trigger if in calendar
+      if (hit && this.isOverCalendar(x, y)) {
         this.handleHitOver(hit)
       }
+    } else if (this.hit && !this.isOverCalendar(x, y)) {
+      // CGM: Trigger if dragging out of calendar, if there was a hit before
+      this.handleHitOut();
     }
   }
 

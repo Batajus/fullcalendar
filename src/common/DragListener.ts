@@ -228,8 +228,47 @@ export default class DragListener {
   // Called while the mouse is being moved and when we know a legitimate drag is taking place
   handleDrag(dx, dy, ev) {
     this.trigger('drag', dx, dy, ev)
-    this.updateAutoScroll(ev) // will possibly cause scrolling
+    // this.updateAutoScroll(ev) // will possibly cause scrolling
+
+    // CGM: Check while dragging if autoscroll should be applied when outside calendar (horizontal scroll mode)
+    let view = (<any>this).component;
+    let x = ev.clientX;
+    let y = ev.clientY;
+
+    // CGM: Only apply when dragging and there is a view object because then we are in a real drag action in a
+    // HitDragListener and not in a select action which uses the normal DragListener
+    if (view && this.isDragging) {
+      // CGM: Check if we are over the calendar
+      if (this.isOverCalendar(x, y)) {
+        this.updateAutoScroll(ev) // will possibly cause scrolling
+      }
+    } else {
+      this.updateAutoScroll(ev) // will possibly cause scrolling
+    }
   }
+
+
+
+  /**
+   * CGM: As default check if the coordinates are over the calendar.
+   * @param x X-coordinate of the dragged event.
+   * @param y Y-coordinate of the dragged event.
+   */
+  isOverCalendar(x, y): boolean {
+    let component = (<any>this).component.view || (<any>this).component;
+    let zone: HTMLElement = component.el[0];
+
+    if (zone) {
+      let divBoundingRect: ClientRect = zone.getBoundingClientRect();
+
+      if (x >= divBoundingRect.left + component.axisWidth && x <= divBoundingRect.right && y >= divBoundingRect.top && y <= divBoundingRect.bottom) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
+
 
 
   endDrag(ev) {
