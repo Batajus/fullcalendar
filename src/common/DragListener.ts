@@ -261,11 +261,7 @@ export default class DragListener {
     if (zone) {
       let divBoundingRect: ClientRect = zone.getBoundingClientRect();
 
-      if (x >= divBoundingRect.left + component.axisWidth && x <= divBoundingRect.right && y >= divBoundingRect.top && y <= divBoundingRect.bottom) {
-        return true;
-      } else {
-        return false;
-      }
+      return x >= divBoundingRect.left + component.axisWidth && x <= divBoundingRect.right && y >= divBoundingRect.top && y <= divBoundingRect.bottom;
     }
   }
 

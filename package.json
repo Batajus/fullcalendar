@@ -22,8 +22,8 @@
   },
   "copyright": "2018 Adam Shaw",
   "dependencies": {},
-  "version": "0.0.5",
-  "releaseDate": "2018-06-19",
+  "version": "0.0.6",
+  "releaseDate": "2018-12-11",
   "devDependencies": {
     "jquery": "2 - 3",
     "moment": "^2.20.1",
