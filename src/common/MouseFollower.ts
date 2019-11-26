@@ -128,6 +128,7 @@ export default class MouseFollower {
       // would use preventSelection(), but that prevents selectstart, causing problems.
       el.addClass('fc-unselectable')
 
+      // CGM: 
       el.appendTo('body')
     }
 

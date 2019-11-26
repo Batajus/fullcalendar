@@ -303,12 +303,14 @@ export function isPrimaryMouseButton(ev) {
 export function getEvX(ev) {
   let touches = ev.originalEvent.touches
 
+  // CGM: 
   // on mobile FF, pageX for touch events is present, but incorrect,
   // so, look at touch coordinates first.
   if (touches && touches.length) {
     return touches[0].pageX / Number($('body').css('zoom'))
   }
 
+  // CGM: 
   return ev.pageX / Number($('body').css('zoom'))
 }
 
@@ -316,12 +318,14 @@ export function getEvX(ev) {
 export function getEvY(ev) {
   let touches = ev.originalEvent.touches
 
+  // CGM: 
   // on mobile FF, pageX for touch events is present, but incorrect,
   // so, look at touch coordinates first.
   if (touches && touches.length) {
     return touches[0].pageY / Number($('body').css('zoom'))
   }
 
+  // CGM: 
   return ev.pageY / Number($('body').css('zoom'))
 }
 
